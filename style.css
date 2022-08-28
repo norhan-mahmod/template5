@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.progress{
+    height: 15px;
+}
+body{
+    min-height: 1500px;
+}
+#logo{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.list-items{
+    list-style-type: none;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover , .links:focus{
+    color: red;
+}
+.contain{
+    position: relative;
+}
+.head{
+    position: absolute;
+    bottom: 40%;
+    left: 35%;
+    width: 450px;
+}
+.head p{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.font-color{
+    color: #999cbc;
+}
+.line-heading{
+    position: relative;
+}
+.line-heading::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    display: block;
+    position: absolute;
+    left: 48%;
+    bottom: -2px;
+}
+.card-frame{
+    position: relative;
+    width: 228px;
+    height: 304px;
+    overflow: hidden;
+}
+.card-div{
+    width: 228px;
+    height: 400px;
+}
+.card-frame img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.layout{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #eb6464e6;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s;
+}
+.card-div:hover .layout{
+    opacity: 1;
+}
+.p1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-div:hover .p1{
+    color: #eb6464e6;
+}
+.card-div:hover .card-frame img{
+    transform: scale(1.1);
+}
+.question p{
+    font-size: 40px;
+    font-weight: bold;
+}
+.question a{
+    text-decoration: none;
+    color: white;
+    background-color: #dc3545;
+    border-radius: 5%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-heading:hover{
+    color: #dc3545;
+    transition: all 0.5s;
+}
+.icon{
+    color: #dc3545;
+}
+.contact-heading{
+    font-size: 35px;
+    font-weight: bold;
+}
+.input{
+    border: solid #eeeeee 2px;
+    border-radius: 8px;
+    width: 540px;
+}
+.contact-link{
+    text-decoration: none;
+    color: white;
+    background-color: #dc3545;
+    padding: 0 150px;
+    border-radius: 7px;
+}
+.contact-link:hover{
+    background-color: #c93040;
+    color: white;
+}
+#Contact{
+    background-color: #fafafa;
+}
+#footer{
+    background-color: rgb(0, 0, 0);
+}
+.footer-image img{
+    width: 100px;
+    height: 100px;
+}
+.footer-links{
+    text-decoration: none;
+}
+.footerb{
+    border: solid white 1px;
+    padding: 5px;
+    border-radius: 7px;
+}
+.footerb:hover{
+    border: solid #dc3545 1px;
+}
+.font-color2{
+    color: #627f96;
+}
+.footer-style{
+    color: white;
+    text-decoration: none;
+}
